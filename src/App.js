@@ -16,7 +16,7 @@ export default function App({meros}) {
 
   return (
     <div className='border border-danger'>
-     
+      <h1> Github </h1>
       <button onClick={()=> setInvoise(1) } className='btn btn-dark mx-2'> Invoise 1 </button>
       <button onClick={()=> setInvoise(2) } className='btn btn-dark mx-2'> Invoise 2 </button>
       <button onClick={()=> setInvoise(3) } className='btn btn-dark mx-2'> Invoise 3 </button>
