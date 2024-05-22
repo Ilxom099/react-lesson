@@ -7,7 +7,7 @@ export default function Users({users}) {
         <h1> Users </h1>
         {
             users.map((item,index)=> <div className='col-4' key={index}>
-                <div className="card text-center">
+                <div className="card bg-dark text-warning text-center">
                     <div className="card-body">
                         <img width={250} height={250} src={item.image} alt="" />
                         <h1> {item.name} </h1>
